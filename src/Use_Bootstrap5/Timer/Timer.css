@@ -1,0 +1,63 @@
+.startBtn{
+	border: none;
+	padding: 7px 15px;
+	font-size: 1.5rem;
+	margin: 4px 5px;
+	border: .5px green solid;
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: green;
+}
+.startBtn:hover{
+ background-color: #9acb9a;
+ color: whitesmoke;
+}
+.startBtn:active{
+ background-color: green;
+ color: whitesmoke;
+}
+.stopBtn{
+	border: none;
+	padding: 7px 15px;
+	font-size: 1.5rem;
+	margin: 4px 5px;
+	border: .5px #c31717e0 solid;
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: #c31717e0;
+}
+.stopBtn:hover{
+ background-color: #c3171785;
+ color: whitesmoke;
+}
+.stopBtn:active{
+ background-color: #c31717e0;
+ color: whitesmoke;
+}
+.resetBtn{
+	border: none;
+	padding: 7px 15px;
+	font-size: 1.5rem;
+	margin: 4px 5px;
+	border: .5px #a3a310de solid;
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: #a3a310de;
+}
+.resetBtn:hover{
+ background-color: #d9d92ba1;
+ color: whitesmoke;
+}
+.resetBtn:active{
+ background-color: #a3a310de;
+ color: whitesmoke;
+}
+
+#activeStartBtn{
+	color: white;
+	background-color: green;
+}
+#activeStopBtn{
+	color: white;
+	background-color: red;
+}

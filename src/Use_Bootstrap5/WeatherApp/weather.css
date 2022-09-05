@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-shadow: border-box;
+}
+.search_box{
+	height:fit-content !important;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px #b1a5a5;
+}
+
+.search_field{
+	padding: 5px 10px ;
+	text-align: center;
+	background: white;
+	box-shadow: 0px 0px 3px grey;
+	border: none;
+	border-radius: 10px;
+	font-weight: 600;
+}
+.search_field:focus{
+	outline: none;
+}
+.search_btn{
+	margin: 20px 0px 0px 10px;
+	border: 1px solid green;
+	border-radius: 10px;
+	padding: 5px 15px ;
+	font-size: 20px;
+	font-weight: 600;
+	background: green;
+	color: whitesmoke;
+}
+.search_btn:active{
+	background: white;
+	color: black;
+	border: 1px grey solid;
+}
+
+
+
+
+.box{
+	padding: 0;
+	border-radius: 20px;
+	height: 70%;
+	border: 1px white solid;
+	box-shadow: 0px 0px 5px #80808070 ;
+}
+
+.icon_box{
+	height: 55%;
+	background-image: linear-gradient(to bottom,#97d3ef,#97d3ef ,white);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.info_box{
+	height: 45%;
+	position: relative;
+}
+
+.location{
+	position:absolute;
+	top: 0px;
+	width: 100%;
+}
+.location p,
+.temparatur p{
+	font-weight:600;
+	color: #796889;			
+}
+.temparatur{
+	position:absolute;
+	bottom: 10px;
+	width: 100%;
+}
+.weatherIcon{
+	font-size: 40px;
+	animation-name: wearIcon !important;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+@keyframes wearIcon {
+	from {
+		font-size: 40px;
+	}
+	to{
+		font-size: 70px;
+	}
+}
+
+.locationIcon{
+	position: relative;
+	top: 0;
+	animation-name: locaIcon !important;
+	animation-duration: .7s;
+	animation-timing-function: linear;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+}
+@keyframes locaIcon {
+	from {
+		top: 0;
+	}
+	to{
+		top: -10px;
+	}
+}
