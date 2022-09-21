@@ -11,7 +11,7 @@ import DynamicUsers from './Dyna_Users'
 import UserPage from './UserPage'
 import Timer from './Timer/App.js'
 import WeatherApp from './WeatherApp/WeatherApp'
-import PuzzleApp from './Puzzle_App/PuzzleAppBody'
+import ChooseFood from './Choose_Food/app'
 
 
 // Costum CSS  ==============
@@ -31,7 +31,7 @@ const App =()=>{
 				<Route path='/projects/users/:name' element={<UserPage />} />
 				<Route path='/projects/timer' element={<Timer />} />
 				<Route path='/projects/weatherapp' element={<WeatherApp />} />
-				<Route path='/projects/puzzleApp' element={<PuzzleApp />} />
+				<Route path='/projects/choosefood' element={<ChooseFood />} />
 				<Route path='*' element={<ErrorPage />} />
 			</Route>
 		</Routes>

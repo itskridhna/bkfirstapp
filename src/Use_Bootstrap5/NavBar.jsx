@@ -6,7 +6,9 @@ const NavBar= ()=>{
 		<>
 		  <nav className="navbar navbar-expand-lg navbar-expand-md navbar-body border-bottom shadow-sm ">
 		  <div className="container-fluid">
-		    <h2 className="navbar-brand text-center" href="#">Navbar</h2>
+		    <h2 className="navbar-brand text-center" href="#">
+		    	<span>BK</span><span style={{color:"skyblue"}}>LODHI</span>
+		    </h2>
 		    <button className="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		      <span className="navbar-toggler-icon "></span>
 		    </button>

@@ -57,9 +57,9 @@ const ProjestsInfo =[
 	},	
 	{
 		'Project No':4, 
-		'Title':"Puzzle App", 
-		'Subtitle':" This is a Puzzle App", 
-		'url':"/projects/puzzleApp" 
+		'Title':"Choose Food", 
+		'Subtitle':" This is a Choose Food App", 
+		'url':"/projects/choosefood" 
 	},
 ]
 
