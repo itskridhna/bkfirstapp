@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bkfirstapp/static/css/main.73ccc57a.css",
-    "main.js": "/bkfirstapp/static/js/main.2223b727.js",
+    "main.css": "/bkfirstapp/static/css/main.a29be533.css",
+    "main.js": "/bkfirstapp/static/js/main.2057b183.js",
     "static/media/bootstrap-icons.woff?": "/bkfirstapp/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/bootstrap-icons.woff2?": "/bkfirstapp/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "index.html": "/bkfirstapp/index.html",
-    "main.73ccc57a.css.map": "/bkfirstapp/static/css/main.73ccc57a.css.map",
-    "main.2223b727.js.map": "/bkfirstapp/static/js/main.2223b727.js.map"
+    "main.a29be533.css.map": "/bkfirstapp/static/css/main.a29be533.css.map",
+    "main.2057b183.js.map": "/bkfirstapp/static/js/main.2057b183.js.map"
   },
   "entrypoints": [
-    "static/css/main.73ccc57a.css",
-    "static/js/main.2223b727.js"
+    "static/css/main.a29be533.css",
+    "static/js/main.2057b183.js"
   ]
 }
